@@ -8,7 +8,7 @@
 void hal_init(void)
 {
     setvbuf(stdout, NULL, _IONBF, 0);
-    printf("Robobites rover link ready\n");
+    printf("Caldova rover link ready\n");
 }
 
 int hal_uart_read_line(char *buffer, size_t capacity)
@@ -56,4 +56,4 @@ void hal_telemetry_send(const uint8_t *data, size_t len)
         printf(" %02X", data[i]);
     }
     printf("\n");
-}
+}

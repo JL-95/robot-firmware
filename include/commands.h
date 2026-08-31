@@ -1,5 +1,5 @@
-#ifndef ROBOBITES_COMMANDS_H
-#define ROBOBITES_COMMANDS_H
+#ifndef CALDOVA_COMMANDS_H
+#define CALDOVA_COMMANDS_H
 
 #include <stddef.h>
 #include <stdint.h>
@@ -47,4 +47,4 @@ typedef struct {
 int command_parse(const char *line, Command *out);
 void command_dispatch(const Command *command);
 
-#endif
+#endif

@@ -1,6 +1,6 @@
-# Robobites Robot Firmware
+# Caldova Robot Firmware
 
-Onboard control firmware for the Robobites sidewalk delivery rover. The process reads operator packets from a UART-style link, updates drive and routing state, and emits compact telemetry frames for the fleet console at robobites.io.
+Onboard control firmware for the Caldova sidewalk delivery rover. The process reads operator packets from a UART-style link, updates drive and routing state, and emits compact telemetry frames for the fleet console at caldova.io.
 
 ## Features
 
@@ -34,4 +34,4 @@ NOTE arrived at north gate
 STAT
 ```
 
-The workstation HAL prints actuator and telemetry activity to standard output. Hardware targets provide the same HAL functions over UART, motor control, battery ADC, and flash storage.
+The workstation HAL prints actuator and telemetry activity to standard output. Hardware targets provide the same HAL functions over UART, motor control, battery ADC, and flash storage.

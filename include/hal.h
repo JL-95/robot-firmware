@@ -1,5 +1,5 @@
-#ifndef ROBOBITES_HAL_H
-#define ROBOBITES_HAL_H
+#ifndef CALDOVA_HAL_H
+#define CALDOVA_HAL_H
 
 #include <stddef.h>
 #include <stdint.h>
@@ -13,4 +13,4 @@ uint32_t hal_millis(void);
 void hal_log(const char *fmt, ...);
 void hal_telemetry_send(const uint8_t *data, size_t len);
 
-#endif
+#endif
